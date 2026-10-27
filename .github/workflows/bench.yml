@@ -79,7 +79,7 @@ jobs:
 
       - name: Analyze results
         run: |
-          bash run_analyze_script.sh
+          node analyze.js
 
       - name: Print benchmark results
         run: cat ./results.md
